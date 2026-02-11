@@ -366,6 +366,73 @@
 			
 		</div>
 	</div>
+
+
+
+	<section class="wedding-palette py-5">
+  <div class="container">
+    
+    <div class="text-center mb-5">
+      <h2 class="palette-title">Весільна палітра</h2>
+    </div>
+
+    <!-- Цвета -->
+    <div class="row text-center g-4 mb-5">
+      
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="color-box" style="background:#EAD7B7;"></div>
+        <h5 class="mt-3">Шампань</h5>
+        <p class="color-code">#EAD7B7</p>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="color-box" style="background:#FFF8EE;"></div>
+        <h5 class="mt-3">Молочний</h5>
+        <p class="color-code">#FFF8EE</p>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="color-box" style="background:#DCCBB5;"></div>
+        <h5 class="mt-3">Бежевий</h5>
+        <p class="color-code">#DCCBB5</p>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="color-box" style="background:#EAB0AA;"></div>
+        <h5 class="mt-3">Blush Pink</h5>
+        <p class="color-code">#EAB0AA</p>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="color-box" style="background:#2F5542;"></div>
+        <h5 class="mt-3">Forest Green</h5>
+        <p class="color-code">#2F5542</p>
+      </div>
+
+    </div>
+
+    <!-- Фото -->
+    <!-- <div class="row g-4">
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="img/palette1.jpg" class="img-fluid palette-img" alt="">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="img/palette2.jpg" class="img-fluid palette-img" alt="">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="img/palette3.jpg" class="img-fluid palette-img" alt="">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="img/palette4.jpg" class="img-fluid palette-img" alt="">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="img/palette5.jpg" class="img-fluid palette-img" alt="">
+      </div>
+    </div>
+
+  </div> -->
+</section>
+
 	
 	<!-- End Wedding -->
 	
@@ -387,35 +454,51 @@
 			<div class="row">
 				<div class="col-lg-12 col-sm-12 col-xs-12">
 				  <div class="contact-block">
-					<form id="contactForm">
-					  <div class="row">
+				<form action="https://formspree.io/f/mvzbzwwg" method="POST">
+					<div class="row">
+
 						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Імя" required data-error="напишіть ваше імя">
-								<div class="help-block with-errors"></div>
-							</div>                                 
+						<div class="form-group">
+							<input 
+							type="text" 
+							class="form-control" 
+							name="first_name"
+							placeholder="Ім'я" 
+							required>
 						</div>
+						</div>
+
 						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" placeholder="Ваша Фамілія" id="name" class="form-control" name="name" required data-error="напишіть фамілію">
-								<div class="help-block with-errors"></div>
-							</div> 
+						<div class="form-group">
+							<input 
+							type="text" 
+							class="form-control" 
+							name="last_name"
+							placeholder="Прізвище" 
+							required>
 						</div>
-					
-				
+						</div>
+
 						<div class="col-md-12">
-							<div class="form-group"> 
-								<textarea class="form-control" id="message" placeholder="Ви з дітьми? будете на банкеті також?" rows="8" data-error="напишить скільки дітей та чи плануете бути на банкеті" required></textarea>
-								<div class="help-block with-errors"></div>
-							</div>
-							<div class="submit-button text-center">
-								<button class="btn btn-common" id="submit" type="submit">Відправити</button>
-								<div id="msgSubmit" class="h3 text-center hidden"></div> 
-								<div class="clearfix"></div> 
-							</div>
+						<div class="form-group">
+							<textarea 
+							class="form-control" 
+							name="message"
+							placeholder="Чи будете з дітьми? Чи плануєте бути на банкеті?"
+							rows="6"
+							required></textarea>
 						</div>
-					  </div>            
-					</form>
+
+						<div class="text-center mt-3">
+							<button class="btn btn-common" type="submit">
+							Відправити
+							</button>
+						</div>
+						</div>
+
+					</div>
+				</form>
+
 				  </div>
 				</div>
 			</div>
@@ -428,7 +511,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Sweetwedding</a> Design By : <a href="https://html.design/">html design</a></p>
+					<p class="footer-company-name">MB Company. &copy; 2018 <a href="#">Sweetwedding</a> Design By : <a href="https://html.design/">Michael Bykov</a></p>
 				</div>
 			</div>
 		</div>

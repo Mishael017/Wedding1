@@ -942,6 +942,36 @@ button:focus{
     .serviceBox{ margin-bottom: 30px; }
 }
 
+.wedding-palette {
+  background-color: #f5efe9;
+}
+
+.palette-title {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 500;
+  color: #4b4b4b;
+}
+
+.color-box {
+  width: 100%;
+  height: 110px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.color-code {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 0;
+}
+
+.palette-img {
+  border-radius: 12px;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
 
 /*------------------------------------------------------------------
     Events
@@ -984,6 +1014,44 @@ button:focus{
 .event-inner a:hover{
 	background: #63c7bd;
 }
+
+
+
+
+.wedding-palette {
+  background-color: #f5efe9;
+}
+
+.palette-title {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 500;
+  color: #4b4b4b;
+}
+
+.color-box {
+  width: 100%;
+  height: 110px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.color-code {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 0;
+}
+
+.palette-img {
+  border-radius: 12px;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+
+
+
 
 /*------------------------------------------------------------------
     Contact
